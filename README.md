@@ -12,5 +12,5 @@ settings.py, urls.py, and views.py are the files which are present in django env
 model.py is a python code in django environment where it consists of the class names of your dataset in the form list.
 
 
-templates.py is a folder where it consists of frontend and designing part of the model.
+templates is a folder where it consists of frontend and designing part of the model.
 
