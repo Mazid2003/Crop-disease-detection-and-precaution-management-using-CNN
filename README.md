@@ -8,6 +8,9 @@ You can get the dataset from the kaggle, Roboflow and some other sources.
 
 DJANGO Files
 settings.py, urls.py, and views.py are the files which are present in django environment. once you create a virtual environment and install django there, these files are generated and we have to make changes which are necessary for our code.
+
 model.py is a python code in django environment where it consists of the class names of your dataset in the form list.
+
+
 templates.py is a folder where it consists of frontend and designing part of the model.
 
