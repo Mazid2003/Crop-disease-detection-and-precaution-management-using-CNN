@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Disease Detector</title>
+</head>
+<body>
+    <h1>Upload a Plant Image</h1>
+    <form id="uploadForm" action="/predict" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input id="fileInput" type="file" name="image" accept="image/*" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            // Create FormData and append the file
+            let formData = new FormData();
+            let fileInput = document.getElementById('fileInput'); // Reference the correct ID
+            formData.append('file', fileInput.files[0]);
+
+            try {
+                // Send POST request to the '/predict/' endpoint
+                let response = await fetch('/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    let data = await response.json();
+                    document.getElementById('result').innerText = `Predicted Class: ${data.prediction}, Confidence: ${data.confidence}, Precaution:${data.precaution}`;
+                } else {
+                    throw new Error('Prediction failed');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('result').innerText = 'Error Predicting, Please try again';
+            }
+        });
+    </script>
+</body>
+</html>
