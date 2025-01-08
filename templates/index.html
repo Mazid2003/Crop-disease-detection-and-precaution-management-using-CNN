@@ -1,31 +1,100 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crop Disease Detector</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;            
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0); /* Semi-transparent white */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            
+        }
+
+        h1 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        input[type="file"] {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #result {
+            font-size: 16px;
+            color: #333;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 <body>
-    <h1>Upload a Plant Image</h1>
-    <form id="uploadForm" action="/predict" method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        <input id="fileInput" type="file" name="image" accept="image/*" required>
-        <button type="submit">Predict</button>
-    </form>
-
-    <p id="result"></p>
+    <div class="container">
+        <h1>Crop Disease Detector</h1>
+        <form id="uploadForm" action="/predict" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input id="fileInput" type="file" name="image" accept="image/*" required>
+            <button type="submit">Predict</button>
+        </form>
+        <div id="result">Predicted output will appear here.</div>
+    </div>
 
     <script>
         document.getElementById('uploadForm').addEventListener('submit', async function(event) {
             event.preventDefault();
 
-            // Create FormData and append the file
             let formData = new FormData();
-            let fileInput = document.getElementById('fileInput'); // Reference the correct ID
+            let fileInput = document.getElementById('fileInput');
             formData.append('file', fileInput.files[0]);
 
             try {
-                // Send POST request to the '/predict/' endpoint
                 let response = await fetch('/predict', {
                     method: 'POST',
                     body: formData
@@ -33,7 +102,10 @@
 
                 if (response.ok) {
                     let data = await response.json();
-                    document.getElementById('result').innerText = `Predicted Class: ${data.prediction}, Confidence: ${data.confidence}, Precaution:${data.precaution}`;
+                    document.getElementById('result').innerText = 
+                    `Predicted Class: ${data.prediction}
+                     Confidence: ${data.confidence}
+                     Precautions: ${data.precautions}`;
                 } else {
                     throw new Error('Prediction failed');
                 }
