@@ -1,0 +1,290 @@
+{
+  "Apple___Apple_scab": {
+    "precautions": [
+      "Use disease-resistant varieties.",
+      "Apply fungicide sprays during bloom and early fruit development.",
+      "Prune trees to increase air circulation and reduce leaf wetness.",
+      "Remove and dispose of fallen leaves and infected fruit."
+    ]
+  },
+  "Apple___Black_rot": {
+    "precautions": [
+      "Prune out infected branches and mummified fruit.",
+      "Avoid injuring the tree bark.",
+      "Apply fungicides during bloom if previous infections were severe.",
+      "Keep the area around trees clear of debris."
+    ]
+  },
+  "Apple___Cedar_apple_rust": {
+    "precautions": [
+      "Plant resistant varieties.",
+      "Remove any nearby cedar trees to reduce risk.",
+      "Apply fungicides in early spring when buds start to swell.",
+      "Monitor for symptoms and prune out infected areas."
+    ]
+  },
+  "Apple___healthy": {
+    "precautions": [
+      "Regularly inspect the tree for any signs of disease.",
+      "Maintain proper spacing to improve air circulation.",
+      "Ensure balanced watering and fertilization.",
+      "Practice good sanitation by removing fallen leaves."
+    ]
+  },
+  "Blueberry___healthy": {
+    "precautions": [
+      "Provide well-drained soil with a low pH (4.5-5.5).",
+      "Avoid waterlogging and provide adequate spacing.",
+      "Prune regularly to increase air circulation.",
+      "Use mulch to retain soil moisture and reduce weed growth."
+    ]
+  },
+  "Cherry_healthy": {
+    "precautions": [
+      "Prune regularly to remove dead or diseased branches.",
+      "Apply a balanced fertilizer as needed.",
+      "Provide proper watering, avoiding overhead irrigation.",
+      "Inspect for early signs of diseases or pests."
+    ]
+  },
+  "Cherry_Powdery_mildew": {
+    "precautions": [
+      "Remove and destroy infected leaves and shoots.",
+      "Apply fungicides when symptoms first appear.",
+      "Avoid excessive nitrogen fertilizer that promotes soft growth.",
+      "Prune to improve air circulation and sunlight penetration."
+    ]
+  },
+  "Corn_(maize)___Cercospora_leaf_spot_Gray_leaf_spot": {
+    "precautions": [
+      "Use resistant corn varieties.",
+      "Rotate crops and avoid planting corn after corn.",
+      "Apply fungicides as recommended.",
+      "Remove and destroy crop residues after harvest."
+    ]
+  },
+  "Corn_(maize)___Common_rust_": {
+    "precautions": [
+      "Plant resistant corn hybrids.",
+      "Apply fungicides when rust is detected early in the season.",
+      "Rotate with non-host crops to reduce disease pressure.",
+      "Monitor regularly, especially during humid weather."
+    ]
+  },
+  "Corn_(maize)___healthy": {
+    "precautions": [
+      "Use quality seed and plant at recommended spacing.",
+      "Monitor for pests and diseases regularly.",
+      "Apply nutrients based on soil test recommendations.",
+      "Irrigate as necessary but avoid waterlogging."
+    ]
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "precautions": [
+      "Plant resistant varieties when available.",
+      "Rotate crops to reduce disease carryover.",
+      "Remove corn residues to prevent overwintering spores.",
+      "Apply fungicides if disease pressure is high."
+    ]
+  },
+  "Grape___Black_rot": {
+    "precautions": [
+      "Remove infected leaves and fruit promptly.",
+      "Prune vines to improve air circulation.",
+      "Apply fungicides at bud break and early fruit development.",
+      "Avoid overhead watering to keep leaves dry."
+    ]
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "precautions": [
+      "Avoid injuring vines, especially at pruning.",
+      "Use disease-free planting materials.",
+      "Remove and destroy infected wood and foliage.",
+      "Prune during dry conditions to prevent spread."
+    ]
+  },
+  "Grape___healthy": {
+    "precautions": [
+      "Practice regular pruning and canopy management.",
+      "Maintain balanced fertilization and irrigation.",
+      "Inspect frequently for early signs of pests or diseases.",
+      "Use mulch to retain soil moisture and control weeds."
+    ]
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "precautions": [
+      "Remove infected leaves and debris around vines.",
+      "Prune to increase air circulation.",
+      "Apply fungicides as recommended for grape leaf blight.",
+      "Use drip irrigation to keep foliage dry."
+    ]
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "precautions": [
+      "Remove and destroy infected trees promptly.",
+      "Control the Asian citrus psyllid vector.",
+      "Use disease-free nursery stock.",
+      "Apply balanced fertilization to reduce tree stress."
+    ]
+  },
+  "Peach___Bacterial_spot": {
+    "precautions": [
+      "Use disease-resistant varieties.",
+      "Apply copper-based bactericides in early spring.",
+      "Prune infected branches during dry weather.",
+      "Avoid overhead irrigation."
+    ]
+  },
+  "Peach___healthy": {
+    "precautions": [
+      "Provide balanced fertilization and watering.",
+      "Monitor regularly for pests and diseases.",
+      "Prune for good air circulation.",
+      "Remove fallen fruit and debris around the tree."
+    ]
+  },
+  "Potato___Early_blight": {
+    "precautions": [
+      "Use certified seed and resistant varieties.",
+      "Remove and destroy crop debris after harvest.",
+      "Apply fungicides when conditions favor disease development.",
+      "Rotate crops to avoid continuous potato planting."
+    ]
+  },
+  "Potato___healthy": {
+    "precautions": [
+      "Use certified, disease-free seed potatoes.",
+      "Apply balanced fertilization and adequate watering.",
+      "Monitor for pests and diseases regularly.",
+      "Remove any volunteer potatoes from previous crops."
+    ]
+  },
+  "Potato___Late_blight": {
+    "precautions": [
+      "Use certified seed and resistant varieties.",
+      "Apply fungicides at regular intervals during humid conditions.",
+      "Remove and destroy infected plants.",
+      "Avoid overhead watering."
+    ]
+  },
+  "Raspberry___healthy": {
+    "precautions": [
+      "Prune regularly to remove dead canes.",
+      "Use mulch to retain soil moisture and control weeds.",
+      "Provide proper spacing and ventilation.",
+      "Monitor for signs of pests and diseases."
+    ]
+  },
+  "Soyabean___healthy": {
+    "precautions": [
+      "Rotate with non-legume crops to reduce disease risk.",
+      "Use disease-resistant varieties if available.",
+      "Ensure proper spacing to improve air circulation.",
+      "Monitor for pests and diseases regularly."
+    ]
+  },
+  "Squash___Powdery_mildew": {
+    "precautions": [
+      "Remove infected leaves and debris.",
+      "Apply fungicides as needed during warm, dry conditions.",
+      "Space plants to allow good air circulation.",
+      "Avoid overhead irrigation."
+    ]
+  },
+  "Strawberry___healthy": {
+    "precautions": [
+      "Use disease-resistant varieties.",
+      "Apply mulch to keep fruit off the ground.",
+      "Monitor regularly for pests and diseases.",
+      "Provide adequate watering without waterlogging."
+    ]
+  },
+  "Strawberry___Leaf_scorch": {
+    "precautions": [
+      "Remove and destroy infected leaves.",
+      "Maintain balanced fertilization to reduce stress.",
+      "Apply fungicides if symptoms are severe.",
+      "Avoid overhead irrigation."
+    ]
+  },
+  "Tomato___Bacterial_spot": {
+    "precautions": [
+      "Use disease-free seeds and transplants.",
+      "Remove and destroy infected plants.",
+      "Apply copper-based bactericides if needed.",
+      "Avoid overhead watering."
+    ]
+  },
+  "Tomato___Early_blight": {
+    "precautions": [
+      "Use disease-resistant varieties.",
+      "Apply fungicides as needed during warm, moist conditions.",
+      "Rotate crops to prevent disease buildup.",
+      "Remove infected leaves."
+    ]
+  },
+  "Tomato___healthy": {
+    "precautions": [
+      "Provide adequate spacing for good air circulation.",
+      "Use mulch to reduce soil splash.",
+      "Rotate crops to prevent disease buildup.",
+      "Monitor for pests and diseases regularly."
+    ]
+  },
+  "Tomato___Late_blight": {
+    "precautions": [
+      "Use certified, disease-free seed and resistant varieties.",
+      "Apply fungicides when conditions favor blight.",
+      "Remove infected plants promptly.",
+      "Avoid overhead watering."
+    ]
+  },
+  "Tomato___Leaf_Mold": {
+    "precautions": [
+      "Ensure proper ventilation in greenhouses.",
+      "Apply fungicides if needed.",
+      "Avoid wetting the leaves when watering.",
+      "Prune lower leaves to improve airflow."
+    ]
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "precautions": [
+      "Rotate crops to reduce disease carryover.",
+      "Remove infected leaves.",
+      "Apply fungicides when symptoms first appear.",
+      "Avoid overhead watering."
+    ]
+  },
+  "Tomato___Spider_mites_Two-spotted_spider_mite": {
+    "precautions": [
+      "Regularly spray plants with water to remove mites.",
+      "Use insecticidal soap or oil sprays as needed.",
+      "Encourage natural predators like ladybugs.",
+      "Avoid over-fertilizing with nitrogen."
+    ]
+  },
+  "Tomato__Target_Spot": {
+    "precautions": [
+      "Apply fungicides as recommended.",
+      "Rotate crops to avoid disease carryover.",
+      "Remove and destroy infected plants.",
+      "Use mulch to reduce soil splash onto leaves."
+    ]
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "precautions": [
+      "Use virus-free seeds and transplants.",
+      "Avoid handling plants after using tobacco products.",
+      "Sanitize tools and hands before handling plants.",
+      "Remove infected plants immediately."
+    ]
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "precautions": [
+      "Use resistant tomato varieties.",
+      "Control whiteflies, which spread the virus.",
+      "Remove infected plants promptly.",
+      "Use reflective mulch to repel whiteflies."
+    ]
+  }
+}
