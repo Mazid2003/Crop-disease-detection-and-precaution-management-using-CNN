@@ -9,6 +9,8 @@ Crop disease detection and Precaution Management is a deep learning project wher
 
 You can get the dataset from the kaggle, Roboflow and some other sources.
 
+label.json is a file which consists of precautions for the each disease of the crop.
+
 DJANGO Files
 settings.py, urls.py, and views.py are the files which are present in django environment. once you create a virtual environment and install django there, these files are generated and we have to make changes which are necessary for our code.
 
@@ -16,4 +18,5 @@ model.py is a python code in django environment where it consists of the class n
 
 
 templates is a folder where it consists of frontend and designing part of the model.
+
 
