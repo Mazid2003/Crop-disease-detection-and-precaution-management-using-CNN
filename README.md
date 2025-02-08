@@ -7,7 +7,7 @@ Crop Disease Detection and Precaution Management is a deep learning-based projec
 **🚀 Key Features**
 
 Deep Learning Model: Trained using CNN-VGG19, achieving 98.4% accuracy.
-\
+
 Django Integration: User-friendly web interface for disease detection.
 
 Automated Precaution Suggestions: Each detected disease is mapped to a set of precautions using label.json.
