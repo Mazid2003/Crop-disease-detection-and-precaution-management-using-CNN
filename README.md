@@ -1,22 +1,63 @@
-NOTE: 
-1. Ignore the errors and run the exact code to get the result.
-2. Folder structure of the project will play a key role while doing this project
+# 🌱 Crop Disease Detection & Precaution Management
 
+**🔍 Project Overview**
 
+Crop Disease Detection and Precaution Management is a deep learning-based project that identifies crop diseases using a CNN-VGG19 model. The model achieves an impressive 98.4% accuracy, ensuring reliable disease classification. The project integrates a Django web application, allowing users to upload images of diseased crops and receive instant disease predictions along with recommended precautions.
 
-Crop disease detection and Precaution Management is a deep learning project where it detects the disease of the crop. In this project i've used a CNN-VGGI9 algorithm to train the model and by using this algorithm i've achieved an accuracy of 98.4% which means the model is trained well. Along with that i've used Django (A popular python framework) to integrate the frontend of the project where it consists an input and and submit button whenever an user gives an image of a diseased crop and clicks on the submit button then our model starts running at the backend and gives the result as the name of the disease. 
+**🚀 Key Features**
 
+Deep Learning Model: Trained using CNN-VGG19, achieving 98.4% accuracy.
+\
+Django Integration: User-friendly web interface for disease detection.
 
-You can get the dataset from the kaggle, Roboflow and some other sources.
+Automated Precaution Suggestions: Each detected disease is mapped to a set of precautions using label.json.
 
-label.json is a file which consists of precautions for the each disease of the crop.
+Dataset Sources: Kaggle, Roboflow, and other open datasets.
 
-DJANGO Files
-settings.py, urls.py, and views.py are the files which are present in django environment. once you create a virtual environment and install django there, these files are generated and we have to make changes which are necessary for our code.
+**Folder Structure**
 
-model.py is a python code in django environment where it consists of the class names of your dataset in the form list.
+📂 Crop-Disease-Detection
+│── 📂 dataset/                 # Dataset used for training
 
+│── 📂 models/                  # Trained model and related files
 
-templates is a folder where it consists of frontend and designing part of the model.
+│── 📂 django_project/           # Django project directory
 
+│   │── 📂 templates/            # Frontend files (HTML, CSS)
+
+│   │── settings.py              # Django settings file
+
+│   │── urls.py                  # URL routing configuration
+
+│   │── views.py                 # Logic for handling requests
+
+│   │── model.py                 # Class names and model integration
+
+│── label.json                   # Precaution details for each disease
+
+│── requirements.txt              # Required dependencies
+
+│── README.md                     # Project documentation (this file)
+
+**Use the Web App**
+
+Upload an image of a diseased crop.
+
+Click the Submit button.
+
+The model will predict the disease and display precautionary measures.
+
+**📌 Notes**
+
+Ensure the folder structure is maintained as it plays a crucial role in project execution.
+
+Run the code as is, ignoring minor errors, to get the desired results.
+
+The Django files (settings.py, urls.py, views.py) are auto-generated when Django is installed in a virtual environment.
+
+**🏆 Results**
+
+98.4% accuracy achieved with CNN-VGG19.
+
+Efficient disease classification with real-time predictions.
 
