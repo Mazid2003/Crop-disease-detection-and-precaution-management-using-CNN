@@ -61,7 +61,11 @@ The Django files (settings.py, urls.py, views.py) are auto-generated when Django
 
 Efficient disease classification with real-time predictions.
 
-📜 License
+**💬 Want to Collaborate?**
+
+Feel free to fork the repo, submit PRs, and give your feedback! 🔥💡
+
+**📜 License**
 
 This project is open-source under the MIT License. Feel free to use and
 modify it! 🚀
