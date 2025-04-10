@@ -47,14 +47,19 @@ Click the Submit button.
 
 The model will predict the disease and display precautionary measures.
 
+**The Dataset Evaluation:**
 
 ![output2](https://github.com/user-attachments/assets/c313d72e-5624-4e70-aa4c-7637aa6e8c8d)
 
+**Sample Test 1:-**
+
 ![web](https://github.com/user-attachments/assets/c483e452-5327-42d8-ace0-ac8ab7eae5c5)
 
+**Sample Test 2:-**
 
 ![web1](https://github.com/user-attachments/assets/10b334a6-cce8-470f-9255-a43c5de8757d)
 
+**Results**
 
 ![web2](https://github.com/user-attachments/assets/7decec72-2aae-4d26-943b-ec65a232252b)
 
